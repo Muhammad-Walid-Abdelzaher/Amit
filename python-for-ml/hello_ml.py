@@ -11,7 +11,7 @@ def main():
 
     DEPI_topics = ["Math", "Python", "Preprocessing & Visualization", "Machine Learning", "Deep Learning", "NLP", "Computer Vision", "AZure", "MI-Flow"]
 
-    print("\nese are the topics we're going to learn in the next 6 months :)", "#" * 65, sep="\n")
+    print("\nThese are the topics we're going to learn in the next 6 months :)", "#" * 65, sep="\n")
     for counter, topic in enumerate(DEPI_topics, 1):
 
         print(f"{counter}- {topic}")
